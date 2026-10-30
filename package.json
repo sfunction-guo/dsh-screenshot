@@ -1,6 +1,6 @@
 {
-  "name": "@sfunction-guo/dsh-screenshot",
-  "version": "0.1.0",
+  "name": "@sfunction/dsh-screenshot",
+  "version": "0.1.1",
   "type": "module",
   "description": "WeChat-style screenshot and annotation button for the DSH composer: freeze the screen, drag a region, mark it up, drop it into the message box.",
   "keywords": [

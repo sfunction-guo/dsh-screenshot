@@ -6,7 +6,7 @@
  * The page only receives the finished PNG and hands it to the composer.
  */
 window.__ModuleLoader__.load({
-  id: '@sfunction-guo/dsh-screenshot',
+  id: '@sfunction/dsh-screenshot',
   factory(require) {
     const React = require('react')
     const h = React.createElement

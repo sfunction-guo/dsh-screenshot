@@ -75,7 +75,7 @@ DSH 的 **设置 → 插件 → 发现** 里搜索 `dsh-screenshot`，或等收�
 
 ### 方式二：npm
 
-包名 `@sfunction-guo/dsh-screenshot`。它是一个 DSH bundle，`package.json` 里的 `dsh.bundle.patch` 声明了装载补丁。
+包名 `@sfunction/dsh-screenshot`。它是一个 DSH bundle，`package.json` 里的 `dsh.bundle.patch` 声明了装载补丁。
 
 ### 方式三：本地目录（开发用）
 
