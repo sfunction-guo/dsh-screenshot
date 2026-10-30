@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-screenshot
+      name: '@sfunction-guo/dsh-screenshot'

@@ -1,0 +1,52 @@
+{
+  "name": "@sfunction-guo/dsh-screenshot",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "WeChat-style screenshot and annotation button for the DSH composer: freeze the screen, drag a region, mark it up, drop it into the message box.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "screenshot",
+    "annotation",
+    "snip",
+    "winforms"
+  ],
+  "license": "MIT",
+  "author": "sfunction-guo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfunction-guo/dsh-screenshot.git"
+  },
+  "homepage": "https://github.com/sfunction-guo/dsh-screenshot#readme",
+  "bugs": {
+    "url": "https://github.com/sfunction-guo/dsh-screenshot/issues"
+  },
+  "os": ["win32"],
+  "engines": {
+    "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "select.cs",
+    "shot.exe",
+    "locale/*.json",
+    "icon.svg",
+    "build.ps1"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}

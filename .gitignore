@@ -1,0 +1,12 @@
+# build output
+obj/
+bin/
+*.user
+*.suo
+
+# local captures / previews
+preview-*.png
+shot-*.png
+
+# logs
+*.log
